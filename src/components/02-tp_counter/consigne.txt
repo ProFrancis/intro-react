@@ -1,0 +1,7 @@
+TP Counter :
+Réaliser un counter 😎
+On doit pouvoir lancer un counter et le mettre en pause.
+Réinitialiser notre counter à 0.
+Vous allez avoir besoin d'utiliser la méthode "setInterval" et "clearInterval". 
+useEffect() interdito 👮
+Bon chance 😗

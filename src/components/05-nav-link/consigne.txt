@@ -1,0 +1,20 @@
+Etape 1 
+
+Pour ce tp il va falloir mettre en place react router 🚗 version 6 en 
+vous aidant de la documentation de react-router : https://reactrouter.com/
+
+Créer le chapitre 05-nav-link-router
+
+Dans ce dossier on aura besoin pour commencer d'un fichier header.js qui contiendra notre navgation.
+
+L'objectif est de mettre en place un système de navigation afin de pouvoir naviguer dans notre application en cliquant sur des liens.
+
+On doit pouvoir naviguer entre tous les chapitres, que nous avons créé.
+
+Etape 2
+
+Ajouter un lien dans votre navigation "article", vous devez à travers ce lien retransmettre un state qui contient une propriété "titre", ce propriété aura pour valeur "Page article 🛍" puis ajouter un paramètre, ce paramètre représentera l'id de cet article et sa valeur sera de "1".
+
+L'objectif, est de récupérer dans le component article le paramètre retransmit dans l'url grâce à la navigation.
+
+Et il faudra aussi récupérer le titre retransmit dans le state, grâce à la navigation dans le component article.

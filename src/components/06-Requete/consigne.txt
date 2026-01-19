@@ -1,0 +1,12 @@
+FETCH ou AXIOS
+
+Récupérez les données à partir de cette API,
+puis affichez-les sur votre page requete.js.
+
+https://jsonplaceholder.typicode.com/users
+
+Faites en sorte qu'il soit possible de sélectionner un utilisateur afin d'afficher ses informations dans une page detail.js.
+
+- Username 
+- Email
+- City
