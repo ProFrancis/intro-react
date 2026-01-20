@@ -17,13 +17,17 @@ import Post from "./components/07-LaFoire/Post";
 import Update from "./components/07-LaFoire/Update";
 import DetailArticle from "./components/07-LaFoire/DetailArticle";
 import LaFoire from "./components/07-LaFoire/LaFoire";
-import LaFoireRedux from "./components/08-LaFoire-Redux/LaFoire"
+import LaFoireRedux from "./components/08-LaFoire-Redux/LaFoire";
+import Register from "./components/09-Context/Register";
+import Sign from "./components/09-Context/Sign";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Template />}>
         <Route path="/exemple" element={<Exemple />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/sign" element={<Sign />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/price" element={<Price />} />
         <Route path="/counter-tp" element={<Counter_TP />} />

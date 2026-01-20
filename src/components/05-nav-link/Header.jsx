@@ -18,6 +18,8 @@ const Header = () => {
         <Link to="/lafoire">La Foire</Link>
         <Link to="/post/article">Add Article</Link>
         <Link to="/lafoire-redux">La foire Redux</Link>
+        <Link to="/sign">Sign</Link>
+        <Link to="/register">Register</Link>
       </nav>
     </header>
   );
