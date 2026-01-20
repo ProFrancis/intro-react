@@ -17,6 +17,7 @@ import Post from "./components/07-LaFoire/Post";
 import Update from "./components/07-LaFoire/Update";
 import DetailArticle from "./components/07-LaFoire/DetailArticle";
 import LaFoire from "./components/07-LaFoire/LaFoire";
+import LaFoireRedux from "./components/08-LaFoire-Redux/LaFoire"
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/update/article/:id" element={<Update />} />
         <Route path="/post/article" element={<Post />} />
         <Route path="/lafoire" element={<LaFoire />} />
+        <Route path="/lafoire-redux" element={<LaFoireRedux />} />
       </Route>
       <Route path="*" element={<Nothing />} />
     </Routes>
